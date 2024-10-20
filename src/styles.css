@@ -139,3 +139,19 @@ a:hover {
   color: #cba6f7; /* Change color on hover */
   text-decoration: underline; /* Underline on hover */
 }
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('/fonts/FiraCode-Regular.woff2') format('woff2'),
+       url('/fonts/FiraCode-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Fira Code', monospace;
+}
+
+pre, code {
+  font-family: 'Fira Code', monospace;
+}
