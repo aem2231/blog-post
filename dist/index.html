@@ -15,19 +15,17 @@
         <!-- Who Am I Section -->
         <section class="who-am-i">
             <h2>Who Am I?</h2>
-            <p><strong>Name:</strong> Mario</p>
-            <p><strong>Location:</strong> UK</p>
-            <p><strong>Description:</strong> Open-source enthusiast</p>
-            <p><strong>Github:</strong> 
-                <a href="https://github.com/aem2231" target="_blank" rel="noopener noreferrer">https://github.com/aem2231</a>
-            </p>
-            <p><strong>Languages:</strong></p>
-            <ul>
-                <li>Python</li>
-                <li>C++</li>
-                <li>Nix</li>
-            </ul>
+            <pre>
+        users.users.mario = {
+            isNormalUser = true;
+            location = "/region/UK";
+            github = "https://github.com/aem2231";
+            languages = [ "python" "c++" "nix" ];
+            extraGroups = [ "nix user" "open-source enthusiast" ];
+        };
+            </pre>
         </section>
+
 
         <!-- Article Section -->
         <article>
@@ -110,7 +108,7 @@
 
             <h3>Personal Reflection</h3>
             <p>
-                After analyzing the job requirements for a Kernel Engineer, I understand that I have alot to learn, but understand some of the foundational concepts and can build on them.
+                After analyzing the job requirements for a Kernel Engineer, I understand that I have a lot to learn, but understand some of the foundational concepts and can build on them.
             </p>
             <p>
                 To help make myself better suited to these roles, I plan to:
